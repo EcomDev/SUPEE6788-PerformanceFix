@@ -1,0 +1,20 @@
+<config>
+    <modules>
+        <EcomDev_AdminPerformance>
+            <codeVersion>1.0.0</codeVersion>
+        </EcomDev_AdminPerformance>
+    </modules>
+    <global>
+        <models>
+            <ecomdev_adminperformance>
+                <class>EcomDev_AdminPatchPerformance_Model</class>
+            </ecomdev_adminperformance>
+            <admin>
+                <rewrite>
+                    <block>EcomDev_AdminPatchPerformance_Model_Rewrite_Block</block>
+                    <variable>EcomDev_AdminPatchPerformance_Model_Rewrite_Variable</variable>
+                </rewrite>
+            </admin>
+        </models>
+    </global>
+</config>
