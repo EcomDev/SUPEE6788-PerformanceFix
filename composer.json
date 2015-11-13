@@ -1,0 +1,32 @@
+{
+  "name": "ecomdev/magento-performance-fix-supee-6788",
+  "license": "OSL-3.0",
+  "type": "magento-module",
+  "description": "Fix for SUPEE6788 performance bottleneck",
+  "require": {
+    "php": ">=5.4.0",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "require-dev": {
+    "magento/core": "1.9.2.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packages.firegento.com"
+    }
+  ],
+  "authors":[
+    {
+      "name":"Ivan Chepurnyi",
+      "email": "ivan@ecomdev.org"
+    }
+  ],
+  "config": {
+    "bin-dir": "bin"
+  },
+  "extra": {
+    "magento-root-dir": "build",
+    "magento-force": true
+  }
+}

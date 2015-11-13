@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <EcomDev_AdminPatchPerformance>
+            <codePool>community</codePool>
+            <active>true</active>
+        </EcomDev_AdminPatchPerformance>
+    </modules>
+</config>
