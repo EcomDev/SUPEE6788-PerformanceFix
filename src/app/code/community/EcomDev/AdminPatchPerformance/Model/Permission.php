@@ -100,7 +100,7 @@ class EcomDev_AdminPatchPerformance_Model_Permission
      */
     private function initVariablePath()
     {
-        $variablePaths = $this->loadCachedFlags(self::CACHE_KEY_BLOCK);
+        $variablePaths = $this->loadCachedFlags(self::CACHE_KEY_VARIABLE);
         if (is_array($variablePaths)) {
             $this->variablePaths = $variablePaths;
             return $this;
