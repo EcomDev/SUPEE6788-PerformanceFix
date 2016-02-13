@@ -1,8 +1,8 @@
 <config>
     <modules>
-        <EcomDev_AdminPatchPerformance>
+        <EcomDev_AdminPerformance>
             <codeVersion>1.0.1</codeVersion>
-        </EcomDev_AdminPatchPerformance>
+        </EcomDev_AdminPerformance>
     </modules>
     <global>
         <models>
